@@ -1,0 +1,116 @@
+body{
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+/*---------- Partie 1: images + texte ----------*/
+main{
+    margin-left: 15%;
+}
+
+.TextNextToImage{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.TextNextToImage2{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.TextNextToImage p{
+    margin: 0;
+    border:2px solid #C4E1C5;
+    border-right: none;
+    border-radius: 2px;
+}
+
+.TextNextToImage2 p{
+    margin: 0;
+    border:2px solid #C4E1C5;
+    border-left: none;
+    border-radius: 2px;
+}
+
+.TextNextToImage img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.TextNextToImage2 img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+hr{
+    color: #C4E1C5;
+}
+
+.decouvrez{
+    text-align: center;
+}
+
+.TitreValeurs{
+    text-align: center;
+}
+
+
+
+.SectionValeurs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.DivValeurs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+
+}
+
+.SectionValeurs img{ 
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.DivValeurs h3{
+    text-align: center;
+}
+
+.DivValeurs p{
+    text-align: center;
+}
+
+.ZoneTextValeurs{
+    display: flex;
+    align-items: center;
+    border:2px solid #C4E1C5;
+    width: 280px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+
+.TextFinValeurs{
+    text-align: center;
+}
+
+
