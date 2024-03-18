@@ -1,0 +1,47 @@
+.produit{
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 0 10px;
+	display: flex;
+	flex-direction: column;
+	background-color: #FFE6E6;
+}
+
+.produit img{
+	width: 200px;
+	height: 200px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.produit button{
+	width: 45%;
+	height: 30px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.description{
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+}
+
+.box h1{
+	text-align: center;
+}
+
+.products{
+	display: flex;
+	justify-content: center;
+}
+
+.boutons{
+	display: flex;
+}
