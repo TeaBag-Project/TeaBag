@@ -1,5 +1,78 @@
-header{
-	background-color: #FFE6E6;
+/*----------------Blocs-------------------*/
+
+form{
 	display: flex;
-	justify-content: space-between;
+	flex-direction: column;
+	float: right;
+	width: 40%;
+	padding: 15px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FFEBD8;
+	min-height: 85vh;
+}
+
+.contact{
+	display: flex;
+	justify-content: center;
+}
+
+.msg_contact{
+	display: flex;
+	flex-direction: column;
+	float: left;
+	width: 40%;
+	padding: 15px;
+}
+
+/*----------------Titre contact et séparation-------------------*/
+
+.contact h1{
+	display: block;
+}
+
+.vertical_line{
+	border: 1px solid black;
+	height: 100vh;
+	margin: 0 10px;
+	height: 60vh;
+}
+
+/*----------------Formulaire-------------------*/
+
+input{
+	padding: 10px;
+	margin: 10px 0;
+	border: 2px solid #edd0b6;
+	border-radius: 10px;
+}
+
+textarea{
+	height: 120px;
+	resize: none;
+	margin: 10px 0;
+	border-radius: 10px;
+	border: 2px solid #edd0b6;
+}
+
+.invisible{
+	display: none;
+}
+
+select{
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0;
+	border: 2px solid #edd0b6;
+	border-radius: 10px;
+}
+
+button{
+	border-radius: 10px;
+	border: 2px solid #edd0b6;
+	padding: 10px;
 }
