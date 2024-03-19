@@ -1,17 +1,23 @@
 .produit{
-	border: 2px solid black;
+	border: 2px solid #C4E1C5;
 	border-radius: 10px;
 	margin: 0 10px;
 	display: flex;
 	flex-direction: column;
 	background-color: #FFE6E6;
+	flex-wrap: wrap-reverse;
 }
 
-.produit img{
+.produit img:not(.prix){
 	width: 200px;
 	height: 200px;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
+}
+
+.prix{
+	position: absolute;
+	margin-right: 105px;
 }
 
 .produit button{
@@ -19,6 +25,9 @@
 	height: 30px;
 	margin: auto;
 	margin-bottom: 10px;
+	background-color: #C4E1C5;
+	border: none;
+	border-radius: 5px;
 }
 
 .description{
@@ -35,4 +44,14 @@
 
 .boutons{
 	display: flex;
+}
+
+/*----------------------SECTIONS---------------------------------*/
+
+.thés{
+	background: linear-gradient(to top, #FFE6E6, #FFEBD8);
+}
+
+.autres{
+	background: linear-gradient(to bottom, #FFE6E6, #FFEBD8);
 }

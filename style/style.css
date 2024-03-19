@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Moo+Lah+Lah&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 html{
 	min-height: 100vh;
@@ -11,6 +13,8 @@ body{
 }
 
 main{
+	display: flex;
+	justify-content: center;
 	background-color: #FFEBD8;
 	min-height: 100vh;
 	padding-bottom: 50px;
@@ -21,16 +25,30 @@ main{
 .box{
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 .box h1{
 	text-align: center;
+	font-family: "Cambay", sans-serif;
+}
+
+.thé_def{
+	height: 20px;
+}
+
+.bienvenue{
+	background-color: #C4E1C5;	
+}
+
+marquee span{
+	margin: 0 80px;
 }
 
 header{
-	background-color: #FFE6E6;
+	background-color: #FCDEDE;
 	display: flex;
-	position: sticky;
+	position: relative;
 	top: 0;
 	width: 100%;
 	align-items: center;
@@ -42,16 +60,26 @@ header{
 	font-size: 30px;
 	border-bottom: 2px solid #C4E1C5;
 	z-index: 10;
+	box-shadow: 0px 4px 3px #C4E1C5;
+}
+
+header scrollbar{
+	position: sticky;
+	top: 15vh;
+}
+
+header h1{
+	margin-left: 13%;
 }
 
 nav{
 	display: flex;
 	position: sticky;
-	top: 15vh;
+	top: 0vh;
 	background-color: #C4E1C5;
 	writing-mode: vertical-lr;
 	width: 10%;
-	height: 85vh;
+	height: 100vh;
 	justify-content: center;
 	align-items: center;
 	float: left;
@@ -67,10 +95,18 @@ nav a{
 	text-shadow: 1px 1px #efd1b6;
 }
 
+.grostitre{
+	text-shadow: 3px 3px #FCDEDE;
+	text-transform: uppercase;
+	background-color: #acdee0;
+	margin-top: 0;
+	padding-top: 10px;
+}
+
 /*-----------------FOOTER--------------------*/
 
 footer{
-	background-color: #FFE6E6;
+	background-color: #FCDEDE;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
