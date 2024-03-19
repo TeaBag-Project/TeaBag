@@ -1,85 +1,206 @@
-body{
-    background-color: white;
-}
-
-h1{
+h2{
     text-align: center;
 }
 
+/*---------- Section 1----------*/
 
-
-/*---------- Partie 1: images + texte ----------*/
-main{
-    margin-left: 15%;
+.titre1{
+    text-align: center; 
+    margin-top: 3vh;
+    margin-bottom: 1vh;
 }
 
-.TextNextToImage{
-    display: flex;
-    justify-content: center;
-    margin: 2%;
-    margin-top: 5%;
-}
-
+.TextNextToImage,
 .TextNextToImage2{
+    background-color: #C4E1C5;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 2%;
-    margin-top: 5%;
+    margin-top: 5vh;
+    border-radius: 10px;
 }
 
-.TextNextToImage p{
-    margin: 0;
-    border:2px solid #C4E1C5;
-    border-right: none;
-    border-radius: 2px;
-}
-
-.TextNextToImage2 p{
-    margin: 0;
-    border:2px solid #C4E1C5;
-    border-left: none;
-    border-radius: 2px;
+.TextNextToImage img,
+.TextNextToImage2 img{
+    object-fit: cover;
+    width: 30vh;
+    height: 30vh;
 }
 
 .TextNextToImage img{
-    object-fit: cover;
-    width: 300px;
-    height: 300px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
 }
 
 .TextNextToImage2 img{
-    object-fit: cover;
-    width: 300px;
-    height: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-hr{
+.TextNextToImage p,
+.TextNextToImage2 p{
+    padding: 2%;
+    color: white;
+    font-size: 120%;
+}
+
+/*---------- Article ----------*/
+.hr1{
+    background: white;
     color: #C4E1C5;
+    width: 70%;
 }
 
 .decouvrez{
     text-align: center;
+    margin: 2%;
 }
 
-.TitreValeurs{
+
+.hr2{
+    background: white;
+    color: #C4E1C5;
+    width: 60%;
+}
+
+/*---------- Section 2----------*/
+
+.EmployésEtTexte{
+    display: flex;
+    justify-content: center;
+}
+
+.employés {
+    position: relative;
+    width: 50%;
+    overflow: hidden; /* Ajout pour cacher le dépassement de l'overlay */
+}
+
+.employés:hover .overlay {
+    height: 100%; 
+}
+
+.imageemployés {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    background-color: rgba(196, 225, 197, 0.9);
+    overflow: hidden;
+    height: 0; 
+    transition: height 0.5s ease; /* Animation de la hauteur */
+    border-radius: 10px;
+}
+
+.textoverlay {
+    text-align: justify;
+    white-space: normal;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+/*---------- Section 3 ----------*/
+
+.DivTexteEngagement{
+    background-color: #FFE6E6;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.TexteEngagement{
+    text-align: center;
+    margin: 2%;
+    
+}
+
+/*---------- Section 4 ----------*/
+
+.ListeBienfaits{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.DivBienfaits{
+    background-color: #C4E1C5;
+    display: flex;
+    border-radius: 10px;
+}
+
+.DivBienfaits img{
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.SousDivBienfaits{
+    display: flex;
+    flex-direction: column;
+}
+
+#TitreListeBienfaits{
+    margin-left: 6%;
+}
+
+/*---------- Section 5 ----------*/
+
+.services{
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.services img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    height: 50vh;
+    border: solid #FFE6E6;
+    border-radius: 10px;
+  }
+
+.services h3,
+.services p{
     text-align: center;
 }
 
+.SousDivServices{
+    width: 50%;
+    height: 70vh;
+}
 
+/*---------- Section 6 ----------*/
 
 .SectionValeurs{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.DivValeurs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5px;
-
+    margin-bottom: 2vh;
 }
 
 .SectionValeurs img{ 
@@ -90,15 +211,23 @@ hr{
     justify-content: center;
 }
 
-.DivValeurs h3{
-    text-align: center;
+.DivValeurs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+
 }
 
+.DivValeurs h3,
 .DivValeurs p{
     text-align: center;
 }
 
+
 .ZoneTextValeurs{
+    background-color: #c4e1c5;
+    color: white;
     display: flex;
     align-items: center;
     border:2px solid #C4E1C5;
@@ -106,10 +235,12 @@ hr{
     height: 170px;
     border-radius: 10px;
     padding: 2px;
-
 }
 
-.TextFinValeurs{
+/*---------- Article ----------*/
+
+.TexteFinValeurs{
+    background-color: white;
     text-align: center;
 }
 
