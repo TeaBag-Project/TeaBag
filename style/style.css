@@ -63,7 +63,10 @@ header{
 	box-shadow: 0px 4px 3px #C4E1C5;
 }
 
-
+header scrollbar{
+	position: sticky;
+	top: 15vh;
+}
 
 header h1{
 	margin-left: 13%;
@@ -81,9 +84,7 @@ nav{
 	align-items: center;
 	float: left;
 }
-.vid p{
-	margin-top: 130px;
-}
+
 nav a{
 	padding: 10px;
 	transform: rotate(180deg);
