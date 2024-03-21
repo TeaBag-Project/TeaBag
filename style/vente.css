@@ -45,6 +45,7 @@
 
 .boutons{
 	display: flex;
+	margin-top: 15px;
 }
 
 /*----------------------SECTIONS---------------------------------*/

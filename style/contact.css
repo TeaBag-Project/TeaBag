@@ -3,22 +3,28 @@
 form{
 	display: flex;
 	flex-direction: column;
-	float: right;
-	width: 40%;
 	padding: 15px;
+	width: 50%;
 }
 
 .contact{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	background-color: #f4dfcb;
+	border-radius: 10px;
+	width: 90%;
 }
 
 .msg_contact{
 	display: flex;
 	flex-direction: column;
-	float: left;
-	width: 40%;
 	padding: 15px;
+	width: 50%;
+}
+
+.box{
+	align-items: center;
 }
 
 /*----------------Titre contact et séparation-------------------*/
@@ -31,7 +37,7 @@ form{
 	border: 1px solid black;
 	height: 100vh;
 	margin: 0 10px;
-	height: 60vh;
+	height: 85%;
 }
 
 /*----------------Formulaire-------------------*/
@@ -67,4 +73,25 @@ button{
 	border-radius: 10px;
 	border: 2px solid #edd0b6;
 	padding: 10px;
+}
+
+/*---------------------------Media-Queries------------------------------*/
+
+@media (max-width: 426px){
+	.contact{
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+
+	form{
+		width: 90%;
+	}
+
+	.msg_contact{
+		width: 90%;
+	}
+
+	.vertical_line{
+		width: 90%;
+	}
 }
