@@ -6,6 +6,7 @@
 	flex-direction: column;
 	background-color: #FFE6E6;
 	flex-wrap: wrap-reverse;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .produit img:not(.prix){
@@ -54,4 +55,8 @@
 
 .autres{
 	background: linear-gradient(to bottom, #FFE6E6, #FFEBD8);
+}
+
+section{
+	padding: 15px 0;
 }

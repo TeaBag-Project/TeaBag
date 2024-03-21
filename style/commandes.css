@@ -8,16 +8,17 @@
 .articles article{
 	display: flex;
 	flex-direction: column;
-	background-color: grey;
+	background-color: #d6cdcd;
 	width: 100%;
 	margin: 15px 0;
 	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /*Infos commande*/
 
 .infos-commande{
-	background-color: red;
+	background-color: #FCDEDE;
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
@@ -31,12 +32,13 @@
 .infos-article{
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	padding: 15px;
 }
 
 .vue_article{
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .statut p[name="statut"]{
@@ -58,6 +60,13 @@
 .boutons{
 	display: flex;
 	flex-direction: column;
+}
+
+.boutons button{
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px 0;
 }
 
 /*-------------------------Style général------------------------------*/
