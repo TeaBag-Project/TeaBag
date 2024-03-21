@@ -1,0 +1,62 @@
+/*-----------------------------ARTICLES----------------------------*/
+
+
+.articles{
+	margin: 20px;
+}
+
+.articles article{
+	display: flex;
+	flex-direction: column;
+	background-color: grey;
+	width: 100%;
+	margin: 15px 0;
+	border-radius: 10px;
+}
+
+/*Infos commande*/
+
+.infos-commande{
+	background-color: red;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	border-bottom: 1px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/*Infos article*/
+
+.infos-article{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.vue_article{
+	display: flex;
+	align-items: center;
+}
+
+.statut p[name="statut"]{
+	font-size: 15px;
+	margin: 0;
+}
+
+.statut p{
+	margin-bottom: 0;
+}
+
+.infos-article img{
+	width: 130px;
+	height: 130px;
+	border: 1px solid pink;
+	border-radius: 10px;
+}
+
+/*-------------------------Style général------------------------------*/
+
+.vert{
+	color: green;
+}
