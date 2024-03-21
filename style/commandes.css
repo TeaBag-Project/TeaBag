@@ -41,11 +41,11 @@
 
 .statut p[name="statut"]{
 	font-size: 15px;
-	margin: 0;
+	margin-bottom: 10px;
 }
 
 .statut p{
-	margin-bottom: 0;
+	margin: 0;
 }
 
 .infos-article img{
@@ -53,6 +53,11 @@
 	height: 130px;
 	border: 1px solid pink;
 	border-radius: 10px;
+}
+
+.boutons{
+	display: flex;
+	flex-direction: column;
 }
 
 /*-------------------------Style général------------------------------*/
