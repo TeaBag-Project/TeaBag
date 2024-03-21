@@ -5,13 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="./style/style.css">
-  <title>MatchaTea</title>
+  <link rel="stylesheet" href="style/style.css">
+  <title>TeaBag</title>
 </head>
 
 <body>
-      <!------------------HEADER-------------------------->
-      <div class="bienvenue">
+    <!-----------------PANEL--------------------------->
+    <div class="panel" id="panel">
+        <a class="showpanel" href="#panel"></a>
+        <ul>
+            <a href="" class="closepanel"></a>
+            <li><img src="img/profil.png"><a href="pages/profil.html">Profil</a></li>
+            <li><img src="img/commande.png"><a href="pages/commandes.html">Commandes</a></li>
+        </ul>
+    </div>
+    <!------------------HEADER-------------------------->
+    <div class="bienvenue">
         <marquee behavior="scroll">
             <span>Livraison standard offerte en France à partir de 49€ d’achat</span>
             <span><img src="../img/thé_défilant.gif" class="thé_def"></span>
@@ -19,16 +28,16 @@
         </marquee>
     </div>
     <header>
-        <img src="../img/headericon.gif">
-        <h1>Matcha Tea</h1>
-        <img src="../img/user.png">
+        <a href="index.html"><img src="img/headericon.gif" class="logo"></a>
+        <h1>Tea Bag</h1>
+        <img src="img/user.png">
     </header>
     <!-----------------NAVBAR--------------------------->
   <nav>
-    <a href="../pages/vente.html">Vente</a>
-    <a href="../pages/histoire.html">Histoire</a>
-    <a href="../pages/apropos.html">A propos</a>
-    <a href="../pages/contact.html">Contact</a>
+    <a href="pages/vente.html">Vente</a>
+    <a href="pages/histoire.html">Histoire</a>
+    <a href="pages/apropos.html">A propos</a>
+    <a href="pages/contact.html">Contact</a>
   </nav>
   <main>
     <div class="box">
@@ -80,7 +89,7 @@
             <p>Plongez dans l’univers fascinant du thé, où chaque gorgée raconte une histoire d’arômes, de traditions et
               de bien-être. Préparez votre tasse, installez-vous confortablement et laissez-nous vous emmener dans un
               voyage sensoriel inoubliable.</p>
-            <video src="./img/COMMENT PRÉPARER UN THÉ MATCHA (LATTE OU TRADITIONNEL).mp4" autoplay loop muted></video>
+            <video src="img/COMMENT PRÉPARER UN THÉ MATCHA (LATTE OU TRADITIONNEL).mp4" autoplay loop muted></video>
           </div>
         </article>
       </section>
@@ -89,7 +98,7 @@
   <!------------------FOOTER-------------------------->
   <footer>
     <div class="navigation">
-      <a href="../index.html">Accueil</a>
+      <a href="index.html">Accueil</a>
       <a href="apropos.html">A propos</a>
       <a href="contact.html">Contact</a>
     </div>
