@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Madimi+One&family=Protest+Revolution&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
-=======
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Madimi+One&family=Rubik+Maze&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
->>>>>>> e0b82467a22e0977722863919082190e9e0813c4
 
 html{
 	min-height: 100vh;
@@ -23,7 +19,6 @@ main{
 	font-weight: 100;
 }
 
-<<<<<<< HEAD
 button{
 	cursor: pointer;
 }
@@ -33,8 +28,6 @@ button a{
 	color: white;
 }
 
-=======
->>>>>>> e0b82467a22e0977722863919082190e9e0813c4
 /*--------------------HEADER------------------------*/
 
 header{
@@ -58,11 +51,7 @@ header{
 
 header h1{
 	margin-left: 10%;
-<<<<<<< HEAD
 	font-family: "Protest Revolution", sans-serif;
-=======
-	font-family: "Rubik Maze", sans-serif;
->>>>>>> e0b82467a22e0977722863919082190e9e0813c4
 	text-shadow: 2px 2px black;
 	font-size: 85px;
 }
@@ -141,11 +130,7 @@ nav a{
 	width: 100%;
 	padding: 10px;
 	text-transform: uppercase;
-<<<<<<< HEAD
 	font-family: "Roboto Condensed", sans-serif;
-=======
-	font-familly: "Roboto Condensed", sans-serif;
->>>>>>> e0b82467a22e0977722863919082190e9e0813c4
 }
 
 #panel:target ul{
@@ -197,10 +182,7 @@ nav a{
 	margin-top: 0;
 	padding-top: 10px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-<<<<<<< HEAD
 	width: 100%;
-=======
->>>>>>> e0b82467a22e0977722863919082190e9e0813c4
 }
 
 /*-----------------FOOTER--------------------*/
@@ -208,7 +190,6 @@ nav a{
 footer{
 	background-color: #FCDEDE;
 	display: flex;
-<<<<<<< HEAD
 	width: 100%;
 	padding-bottom: 20px;
 	font-family: "Madimi One", sans-serif;
@@ -236,30 +217,10 @@ footer li{
 .navigation a{
 	color: white;
 	text-decoration: none;
-=======
-	align-items: center;
-	justify-content: space-around;
-	width: 100%;
-	height: 120px;
-	font-family: "Indie Flower", sans-serif;
-	padding-bottom: 30px;
-}
-
-.navigation{
-	display: grid;
-	grid-template-columns: 100px 100px;
-	margin-left: 15px;
-}
-
-.navigation a{
-	text-decoration: none;
-	color: black;
->>>>>>> e0b82467a22e0977722863919082190e9e0813c4
 	font-weight: bold;
 	padding: 10px;
 }
 
-<<<<<<< HEAD
 .bye{
 	font-family: "Indie Flower", sans-serif;
 	background-image: url(../img/imagefooter.jpg);
@@ -275,8 +236,6 @@ footer li{
 	border-radius: 2px;
 }
 
-=======
->>>>>>> e0b82467a22e0977722863919082190e9e0813c4
 
 /*----------------------------MEDIA-QUERIES------------------------*/
 
