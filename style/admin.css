@@ -39,11 +39,10 @@ section img:hover{
 }
 
 section hr {
-    width: 85%;
-    
-    margin: 20px 0; /* Ajustez la marge selon vos préférences */
+    width: 60%;
+    margin: 20px 0;
     border: none;
-    border-top: 3px solid #C4E1C5; /* Ajoute une bordure en haut */
+    border-top: 3px solid #C4E1C5;
     border-radius: 50%;
     box-shadow: 1px 1px 2px black;
 
