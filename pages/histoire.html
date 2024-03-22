@@ -10,11 +10,27 @@
     </head>
 
     <body>
+            <!-----------------PANEL--------------------------->
+        <div class="panel" id="panel">
+            <a class="showpanel" href="#panel"></a>
+            <ul>
+                <a href="" class="closepanel"></a>
+                <li><img src="../img/profil.png"><a href="profil.html">Profil</a></li>
+                <li><img src="../img/commande.png"><a href="commandes.html">Commandes</a></li>
+            </ul>
+        </div>
         <!------------------HEADER-------------------------->
+        <div class="bienvenue">
+            <marquee behavior="scroll">
+                <span>Livraison standard offerte en France à partir de 49€ d’achat</span>
+                <span><img src="../img/thé_défilant.gif" class="thé_def"></span>
+                <span>Commande expédiée le jour même si passée avant 13h</span>
+            </marquee>
+        </div>
         <header>
-            <img src="../img/headericon.jpeg"></img>
+            <img src="../img/headericon.gif">
             <h1>Matcha Tea</h1>
-            <img src="../img/user.jpeg"></img>
+            <img src="../img/user.png">
         </header>
         <!-----------------NAVBAR--------------------------->
         <nav>
@@ -58,7 +74,7 @@
                 <hr class="hr2">
 
                 <section>
-                    <h2>Notre Entreprise</h2>
+                    <h2>À Propos de Matcha Tea</h2>
                     <div class="EmployésEtTexte">
                         <div class="employés">
                             <img src="../img/image_employés.jpeg" alt="image employés" class="imageemployés">
@@ -110,20 +126,21 @@
                     </div>
                 </section>
 
-                <section>
+                <section class="SectionsNosServices">
                     <h2>Nos Services</h2>
                     <div class="services">
                         <div class="SousDivServices">
                             <h3>1 - Vente de matcha :</h3>
-                            <img src="../img/image_produit_matcha.jpeg" alt="img produit matcha">
+                            <a href="../pages/vente.html"><img src="../img/image_produit_matcha.jpeg" alt="img produit matcha" ></a>
                             <p>Matcha Tea offre un service de vente de matcha de qualité nature ou
                                 parfumé. Que ce soit une occasion pour déguster seul ou en groupe notre thé matcha, notre
                                 équipe vous offre le meilleur du thé matcha venu directement d’une petite entreprise au
                                 Japon.</p>
                         </div>
+                        <span class="vertical_line"></span>
                         <div class="SousDivServices">
                             <h3>2 - Vente d’accessoires matcha :</h3>
-                            <img src="../img/image_accessoires_matcha.jpeg" alt="img accessoires matcha">
+                            <a href="../pages/vente.html"><img src="../img/image_accessoires_matcha.jpeg" alt="img accessoires matcha"></a>
                             <p>Notre équipe vous offre des accessoires de qualité pour
                                 perfectionner votre thé matcha et en faire comme des professionnels.</p>
                         </div>

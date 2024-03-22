@@ -1,13 +1,43 @@
+/*---------- Propriétés Générales----------*/
+
+h1,
+h2,
+h3,
+p,
+li, 
+.textoverlay{
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+
 h2{
+    font-size: 200%;
     text-align: center;
+    margin-top: 5vh;
+    text-decoration:solid;
+}
+
+h3{
+    font-size: 150%;
+}
+
+li::marker{
+    content: "🍵 ";
+}
+
+article p{
+    font-size: larger;
 }
 
 /*---------- Section 1----------*/
 
 .titre1{
+    font-size: 200%;
     text-align: center; 
-    margin-top: 3vh;
+    margin-top: 6vh;
     margin-bottom: 1vh;
+    text-decoration: underline 1px;
 }
 
 .TextNextToImage,
@@ -19,6 +49,7 @@ h2{
     margin: 2%;
     margin-top: 5vh;
     border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .TextNextToImage img,
@@ -41,13 +72,11 @@ border-bottom-right-radius: 10px;
 .TextNextToImage p,
 .TextNextToImage2 p{
     padding: 2%;
-    color: white;
-    font-size: 120%;
+    font-size: 150%;
 }
 
 /*---------- Article ----------*/
 .hr1{
-    background: white;
     color: #C4E1C5;
     width: 70%;
 }
@@ -59,7 +88,6 @@ border-bottom-right-radius: 10px;
 
 
 .hr2{
-    background: white;
     color: #C4E1C5;
     width: 60%;
 }
@@ -103,7 +131,6 @@ border-bottom-right-radius: 10px;
 .textoverlay {
     text-align: justify;
     white-space: normal;
-    color: white;
     font-size: 20px;
     position: absolute;
     overflow: hidden;
@@ -117,12 +144,14 @@ border-bottom-right-radius: 10px;
 /*---------- Section 3 ----------*/
 
 .DivTexteEngagement{
+    font-size: larger;
     background-color: #FFE6E6;
     display: flex;
     justify-content: center;
     border-radius: 10px;
     margin-left: 20%;
     margin-right: 20%;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .TexteEngagement{
@@ -158,13 +187,19 @@ border-bottom-right-radius: 10px;
 .SousDivBienfaits{
     display: flex;
     flex-direction: column;
+    text-shadow: black;
 }
 
 #TitreListeBienfaits{
     margin-left: 6%;
+    margin-bottom: 0;
 }
 
 /*---------- Section 5 ----------*/
+
+.SectionsNosServices{
+    margin-bottom: 10vh;
+}
 
 .services{
     display: flex;
@@ -179,9 +214,25 @@ border-bottom-right-radius: 10px;
     margin-right: auto;
     width: 50vh;
     height: 50vh;
-    border: solid #FFE6E6;
+    border: solid 5px #C4E1C5;
     border-radius: 10px;
-  }
+    box-shadow: rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+    margin-bottom: 3vh;
+}    
+
+.vertical_line{
+	border: 1px solid #C4E1C5;
+    box-shadow: 1px 1px 2px black;
+	height: 100vh;
+	margin: 0 10px;
+	height: 60vh;
+}
+
+.services p{
+    font-size: 120%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
 .services h3,
 .services p{
@@ -191,6 +242,7 @@ border-bottom-right-radius: 10px;
 .SousDivServices{
     width: 50%;
     height: 70vh;
+    
 }
 
 /*---------- Section 6 ----------*/
@@ -227,7 +279,6 @@ border-bottom-right-radius: 10px;
 
 .ZoneTextValeurs{
     background-color: #c4e1c5;
-    color: white;
     display: flex;
     align-items: center;
     border:2px solid #C4E1C5;
@@ -235,12 +286,12 @@ border-bottom-right-radius: 10px;
     height: 170px;
     border-radius: 10px;
     padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 /*---------- Article ----------*/
 
 .TexteFinValeurs{
-    background-color: white;
     text-align: center;
 }
 
