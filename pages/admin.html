@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../style/profil.css">
+        <link rel="stylesheet" href="../style/admin.css">
         <link rel="stylesheet" href="../style/style.css">
-        <title>Profil</title>
+        <title>Utilisateur ou Administrateur</title>
     </head>
     <body>
-        <!-----------------PANEL--------------------------->
+          <!-----------------PANEL--------------------------->
         <div class="panel" id="panel">
             <a class="showpanel" href="#panel"></a>
             <ul>
@@ -40,41 +40,29 @@
 
         <main>
             <div class="box">
-                <section class="SectionProfil">
-                    <h1 class="Titre">Mon Profil</h1>
-                    <img src="../img/profil_user.png" alt="icone utilisateur" class="ImgProfil">
-                        <div class="DivProfil">
-                                <div class="DivInputFirst">
-                                    <label for="Nom">Nom</label>
-                                    <input type="Nom" value="Sparrow">
-                                </div>
+                <section>
+                    <h1>À vous de choisir !</h1>
+                    <div>
+                        <h2>Profil Utilisateur</h2>
+                        <a href="profil.html"><img src="../img/icone_modif_utilisateur.png" alt="icone modif utilisateur"></a>
+                    </div>
+                    
+                    <hr>
+                    
+                    <div>
+                        <h2>Panel Administrateur</h2>
+                        <a href="admin.html"><img src="../img/icone_admin.png" alt="icone administrateur"></a>
+                    </div>
 
-                                <div class="DivInput">
-                                    <label for="Prénom">Prénom</label>
-                                    <input type="Prénom" value="Jack">
-                                </div>
-
-                                <div class="DivInput">
-                                    <label for="Numéro de téléphone">Numéro de téléphone</label>
-                                    <input type="Numéro de téléphone" value="06 66 12 23 34">
-                                </div>
-
-                                <div class="DivInput">
-                                    <label for="Adresse">Adresse</label>
-                                    <input type="Adresse" value="7 Chemin de la Castellane 13015 Marseille">
-                                </div>
-
-                                <div class="DivInput">
-                                    <label for="Informations de payement">Informations de payement</label>
-                                    <input type="Informations de payement" value="MasterCard Jack Sparrow - 1358 45** **** ****">
-                                </div>
-                            <img src="../img/icone_entrée.png" alt="icone entrée" class="ImgEntrée">
-                        </div>
+                    <div class="DivContact">
+                        <p>Vous n'arrivez pas à vous connectez ?</p>
+                        <p>Contactez nous <a href="../pages/contact.html">ici.</p></a>
+                    </div>
                 </section>
             </div>
         </main>
-            <!------------------FOOTER-------------------------->
-        <footer>
+         <!------------------FOOTER-------------------------->
+         <footer>
             <div class="navigation">
                 <a href="../index.html">Accueil</a>
                 <a href="apropos.html">A propos</a>
