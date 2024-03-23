@@ -22,7 +22,7 @@ h3{
     font-size: 150%;
 }
 
-li::marker{
+.ListeBienfaits li::marker{
     content: "🍵 ";
 }
 
@@ -132,7 +132,7 @@ border-bottom-right-radius: 10px;
 .textoverlay {
     text-align: justify;
     white-space: normal;
-    font-size: 20px;
+    font-size: 17px;
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -380,6 +380,10 @@ border-bottom-right-radius: 10px;
         font-size: 65%;
     }
 
+    .textoverlay{
+        font-size: 5px;
+    }
+
     .TexteEngagement{
         font-size: 70%;
         width: 100%;
@@ -387,19 +391,15 @@ border-bottom-right-radius: 10px;
     }
 
     .services{
+        display: flex;
+        align-items: center;
         flex-direction: column;
     }
 
     .SousDivServices{
         width: 80%;
-        /* height: 20vh; */
     }
 
-    /* .vertical_line{
-        transform: rotate(90deg);
-        height: 50vh;
-
-    } */
     .vertical_line {
         position: absolute;
         left: 50%; /* Pour le positionner au milieu de son conteneur parent */
@@ -426,5 +426,36 @@ border-bottom-right-radius: 10px;
     .SectionsNosServices{
         margin-bottom: 5vh
 
+    }
+}
+
+@media (max-width: 321px){
+    .TextNextToImage,
+    .TextNextToImage2{
+        flex-direction: column;
+    }
+    .TextNextToImage img,
+    .TextNextToImage2 img{
+        width: 100%;
+    }
+    .TextNextToImage img{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    .TextNextToImage2 img{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    .TextNextToImage p,
+    .TextNextToImage2 p{
+        height: 25vh;
+        font-size: 85%;
+    }
+    .textoverlay{
+        font-size: 4px;
+    }
+    .ZoneTextValeurs{
+        width: 200px;
+        font-size: 80%;
     }
 }

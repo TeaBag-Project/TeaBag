@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../style/profil.css">
+        <link rel="stylesheet" href="../style/profil-admin.css">
         <link rel="stylesheet" href="../style/style.css">
         <link rel="icon" href="../img/favicon.ico">
-        <title>Profil</title>
+        <title>Panel Administrateur</title>
     </head>
     <body>
             <!-----------------PANEL--------------------------->
@@ -42,34 +42,47 @@
         <main>
             <div class="box">
                 <section class="SectionProfil">
-                    <h1 class="Titre">Mon Profil</h1>
-                    <img src="../img/profil_user.png" alt="icone utilisateur" class="ImgProfil">
+                    <h1 class="Titre">Panel Administrateur</h1>
+                    <img src="../img/rouage_admin.png" alt="icone administrateur" class="ImgProfil">
                         <div class="DivProfil">
-                                <div class="DivInputFirst">
-                                    <label for="Nom">Nom</label>
-                                    <input type="Nom" value="Sparrow">
+                            <div class="SousDivProfil">
+                                <a href="admin-commandes.html">
+                                <div class="DivIcone">
+                                    <h2>Commandes</h2>
+                                    <img src="../img/icone_admin_commandes.png" alt="icone commandes">
+                                </div>
+                                </a>
+                            </div>
+
+                                <span class="vertical_line"></span>
+
+                                <div class="barre">
+                                <hr>
                                 </div>
 
-                                <div class="DivInput">
-                                    <label for="Prénom">Prénom</label>
-                                    <input type="Prénom" value="Jack">
+                            <div class="SousDivProfil">
+                                <a href="admin-produits.html">
+                                <div class="DivIcone">
+                                    <h2>Produits</h2>
+                                    <img src="../img/icone_admin_produits.png" alt="icone produit">
+                                </div>
+                                </a>
+                            </div>
+
+                                <span class="vertical_line"></span>
+
+                                <div class="barre">
+                                <hr>
                                 </div>
 
-                                <div class="DivInput">
-                                    <label for="Numéro de téléphone">Numéro de téléphone</label>
-                                    <input type="Numéro de téléphone" value="06 66 12 23 34">
+                            <div class="SousDivProfil">
+                                <a href="admin-utilisateurs.html">
+                                <div class="DivIcone">
+                                    <h2>Utilisateurs</h2>
+                                    <img src="../img/icone_admin_utilisateurs.png" alt="icone utilisateurs">
                                 </div>
-
-                                <div class="DivInput">
-                                    <label for="Adresse">Adresse</label>
-                                    <input type="Adresse" value="7 Chemin de la Castellane 13015 Marseille">
-                                </div>
-
-                                <div class="DivInput">
-                                    <label for="Informations de payement">Informations de payement</label>
-                                    <input type="Informations de payement" value="MasterCard Jack Sparrow - 1358 45** **** ****">
-                                </div>
-                            <img src="../img/icone_entrée.png" alt="icone entrée" class="ImgEntrée">
+                                </a>
+                            </div>
                         </div>
                 </section>
             </div>

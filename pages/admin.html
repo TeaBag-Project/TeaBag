@@ -5,53 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../style/admin.css">
         <link rel="stylesheet" href="../style/style.css">
+        <link rel="icon" href="../img/favicon.ico">
         <title>Utilisateur ou Administrateur</title>
     </head>
     <body>
-          <!-----------------PANEL--------------------------->
-        <div class="panel" id="panel">
-            <a class="showpanel" href="#panel"></a>
-            <ul>
-                <a href="" class="closepanel"></a>
-                <li><img src="../img/profil.png"><a href="profil.html">Profil</a></li>
-                <li><img src="../img/commande.png"><a href="commandes.html">Commandes</a></li>
-            </ul>
-        </div>
-        <!------------------HEADER-------------------------->
-        <div class="bienvenue">
-            <marquee behavior="scroll">
-                <span>Livraison standard offerte en France à partir de 49€ d’achat</span>
-                <span><img src="../img/thé_défilant.gif" class="thé_def"></span>
-                <span>Commande expédiée le jour même si passée avant 13h</span>
-            </marquee>
-        </div>
-        <header>
-            <img src="../img/headericon.gif">
-            <h1>Matcha Tea</h1>
-            <img src="../img/user.png">
-        </header>
-        <!-----------------NAVBAR--------------------------->
-        <nav>
-            <a href="vente.html">Vente</a>
-            <a href="histoire.html">Histoire</a>
-            <a href="apropos.html">A propos</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+           <!-----------------PANEL--------------------------->
+    <div class="panel" id="panel">
+        <a class="showpanel" href="#panel"></a>
+        <ul>
+            <a href="" class="closepanel"></a>
+            <li><img src="../img/profil.png"><a href="admin.html">Profil</a></li>
+            <li><img src="../img/commande.png"><a href="commandes.html">Commandes</a></li>
+        </ul>
+    </div>
+    <!------------------HEADER-------------------------->
+    <div class="bienvenue">
+        <marquee behavior="scroll">
+            <span>Livraison standard offerte en France à partir de 49€ d’achat</span>
+            <span><img src="../img/thé_défilant.gif" class="thé_def"></span>
+            <span>Commande expédiée le jour même si passée avant 13h</span>
+        </marquee>
+    </div>
+    <header>
+        <a href="../index.html"><img src="../img/headericon.gif" class="logo"></a>
+        <h1>Tea Bag</h1>
+        <img src="../img/user.png">
+    </header>
+    <!-----------------NAVBAR--------------------------->
+    <nav>
+        <a href="vente.html">Vente</a>
+        <a href="histoire.html">Histoire</a>
+        <a href="apropos.html">A propos</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 
         <main>
             <div class="box">
                 <section>
-                    <h1>À vous de choisir !</h1>
+                    <h1>Qui êtes vous ?</h1>
                     <div>
-                        <h2>Profil Utilisateur</h2>
-                        <a href="profil.html"><img src="../img/icone_modif_utilisateur.png" alt="icone modif utilisateur"></a>
+                        <h2 class="TitreRose">Profil Utilisateur</h2>
+                        <a href="profil.html"><img src="../img/icone_modif_utilisateur.png" alt="icone modif utilisateur" class="icone1"></a>
                     </div>
                     
                     <hr>
                     
                     <div>
-                        <h2>Panel Administrateur</h2>
-                        <a href="admin.html"><img src="../img/icone_admin.png" alt="icone administrateur"></a>
+                        <h2 class="TitreVert">Panel Administrateur</h2>
+                        <a href="profil-admin.html"><img src="../img/icone_admin.png" alt="icone administrateur" class="icone2"></a>
                     </div>
 
                     <div class="DivContact">
@@ -62,18 +63,30 @@
             </div>
         </main>
          <!------------------FOOTER-------------------------->
-         <footer>
+    <footer>
+        <div class="container">
             <div class="navigation">
-                <a href="../index.html">Accueil</a>
-                <a href="apropos.html">A propos</a>
-                <a href="contact.html">Contact</a>
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="apropos.html">A propos</a></li>
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="vente.html">Vente</a></li>
+                </ul>
             </div>
             <div class="bye">
-                <p>Merci de votre visite!</p>
+                <h2>Merci de votre visite!</h2>
+                <button><a href="contact.html">Contactez nous!</a></button>
             </div>
             <div class="coordonnées">
-                <p>8 rue d'Hozier<br>13002<br>Marseille</p>
+                <h3>Coordonnées</h3>
+                <ul>
+                    <li>8 rue d'Hozier</li>
+                    <li>13002</li>
+                    <li>Marseille</li>
+                </ul>
             </div>
-        </footer>
+        </div>
+    </footer>
     </body>
 </html>

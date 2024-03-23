@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../style/histoire.css">
         <link rel="stylesheet" href="../style/style.css">
-
+        <link rel="icon" href="../img/favicon.ico">
         <title>Histoire</title>
     </head>
 
@@ -15,7 +15,7 @@
             <a class="showpanel" href="#panel"></a>
             <ul>
                 <a href="" class="closepanel"></a>
-                <li><img src="../img/profil.png"><a href="profil.html">Profil</a></li>
+                <li><img src="../img/profil.png"><a href="admin.html">Profil</a></li>
                 <li><img src="../img/commande.png"><a href="commandes.html">Commandes</a></li>
             </ul>
         </div>
@@ -28,8 +28,8 @@
             </marquee>
         </div>
         <header>
-            <img src="../img/headericon.gif">
-            <h1>Matcha Tea</h1>
+            <a href="../index.html"><img src="../img/headericon.gif" class="logo"></a>
+            <h1>Tea Bag</h1>
             <img src="../img/user.png">
         </header>
         <!-----------------NAVBAR--------------------------->
@@ -131,7 +131,7 @@
                     <div class="services">
                         <div class="SousDivServices">
                             <h3>1 - Vente de matcha :</h3>
-                            <img src="../img/image_produit_matcha.jpeg" alt="img produit matcha" >
+                            <a href="vente.html"><img src="../img/image_produit_matcha.jpeg" alt="img produit matcha" ></a>
                             <p>Matcha Tea offre un service de vente de matcha de qualité nature ou
                                 parfumé. Que ce soit une occasion pour déguster seul ou en groupe notre thé matcha, notre
                                 équipe vous offre le meilleur du thé matcha venu directement d’une petite entreprise au
@@ -142,7 +142,7 @@
 
                         <div class="SousDivServices2">
                             <h3>2 - Vente d’accessoires matcha :</h3>
-                            <img src="../img/image_accessoires_matcha.jpeg" alt="img accessoires matcha">
+                            <a href="vente.html"><img src="../img/image_accessoires_matcha.jpeg" alt="img accessoires matcha"></a>
                             <p>Notre équipe vous offre des accessoires de qualité pour
                                 perfectionner votre thé matcha et en faire comme des professionnels.</p>
                         </div>
@@ -202,19 +202,31 @@
             </div>
         </main>
         
-        <!------------------FOOTER-------------------------->
-        <footer>
+    <!------------------FOOTER-------------------------->
+    <footer>
+        <div class="container">
             <div class="navigation">
-                <a href="../index.html">Accueil</a>
-                <a href="apropos.html">A propos</a>
-                <a href="contact.html">Contact</a>
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="apropos.html">A propos</a></li>
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="vente.html">Vente</a></li>
+                </ul>
             </div>
             <div class="bye">
-                <p>Merci de votre visite!</p>
+                <h2>Merci de votre visite!</h2>
+                <button><a href="contact.html">Contactez nous!</a></button>
             </div>
             <div class="coordonnées">
-                <p>8 rue d'Hozier<br>13002<br>Marseille</p>
+                <h3>Coordonnées</h3>
+                <ul>
+                    <li>8 rue d'Hozier</li>
+                    <li>13002</li>
+                    <li>Marseille</li>
+                </ul>
             </div>
-        </footer>
+        </div>
+    </footer>
     </body>
 </html>
