@@ -1,0 +1,81 @@
+/* Le body est a remplacé*/
+/* main 90% */
+
+.box {
+  padding-left: 50px;
+  padding-right: 50PX;
+}
+
+main {
+  text-align: center;
+}
+body {
+  background-color: goldenrod;
+}
+hr {
+  height: 3px;
+  margin: 100px;
+  background-color: black;
+  border: none;
+}
+.first_arc {
+  text-align: center;
+}
+.first_p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgba(0, 0, 0, 0.598);
+  margin-top: 60px;
+}
+.imageb {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.imageb .imagine {
+  border: 2px solid white;
+  border-radius: 15px;
+  
+}
+.prefirst_p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-size: 1.5rem;
+}
+h2 {
+  color:#fcafaf;
+}
+.vid {
+  display: flex;
+  flex-direction: row;
+}
+.vid video {
+  float: right;
+}
+.para {
+  display: flex;
+  flex-direction: column;
+}
+.skunk h2{
+    margin-top: 50px;
+}
+.skunk li {
+  list-style: none;
+  color: rgba(2, 87, 2, 0.881);
+}
+video {
+  display: flex;
+  justify-content: flex-end;
+  border: 3px solid #C4E1C5;
+  border-radius: 20px;
+}
+.skunk {
+  margin-top: 20px;
+}
+.vid p{
+  margin-top: 140px;
+  color: #fda2a2;
+}
+.second_arc h2{
+      margin-bottom: 40px;
+}

@@ -1,0 +1,141 @@
+/*-----------------------------ARTICLES----------------------------*/
+
+
+.articles{
+	margin: 20px;
+}
+
+.articles article{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 15px 0;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*Infos commande*/
+
+.infos-commande{
+	background-color: #FCDEDE;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	border-bottom: 1px solid black;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/*Infos article*/
+
+.infos-article{
+	display: flex;
+	flex-direction: column;
+	padding: 35px;
+	background-color: #C4E1C5;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.vue_article{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.statut p[name="statut"]{
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.statut p{
+	margin: 0;
+}
+
+.infos-article img{
+	width: 130px;
+	height: 130px;
+	border: 1px solid pink;
+	border-radius: 10px;
+}
+
+.boutons{
+	display: flex;
+	flex-direction: column;
+}
+
+.boutons button{
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+/*-------------------------Style général------------------------------*/
+
+.vert{
+	color: green;
+}
+
+/*-------------------------Media-Queries------------------------------*/
+
+@media (max-width: 426px){
+	.vue_article img{
+		width: 70px;
+		height: 70px;
+		margin: 2px 0;
+	}
+
+	.vue_article{
+		flex-direction: column;
+	}
+
+	.articles article{
+		flex-direction: row;
+	}
+
+	.infos-commande{
+		flex-direction: column;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-top-right-radius: 0px;
+		padding: 10px;
+	}
+
+	.infos-commande p:not(.titre_commande){
+		margin: 0;
+		font-weight: 300;
+	}
+
+	.titre_commande{
+		font-weight: 900;
+		margin: 0;
+	}
+
+	.statut{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 120px;
+	}
+
+	.statut p{
+		margin: 0;
+		text-align: center;
+	}
+
+	.infos-article{
+		padding: 15px;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 10px;
+	}
+
+	.vue_article p, .vue_article ul{
+		display: none;
+	}
+
+	.boutons button{
+		padding: 7px;
+		font-size: 10px;
+	}
+}
