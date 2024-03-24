@@ -2,8 +2,8 @@
 /* main 90% */
 
 .box {
-  padding-left: 50px;
-  padding-right: 50PX;
+  display: flex;
+  justify-content: center;
 }
 
 main {
@@ -78,4 +78,10 @@ video {
 }
 .second_arc h2{
       margin-bottom: 40px;
+}
+
+.second_arc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
