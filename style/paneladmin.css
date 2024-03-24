@@ -109,7 +109,7 @@ main{
 
 /*Masquer*/
 
-#produits, #commandes{
+#produits, #commandes, #utilisateurs{
 	display: none;
 }
 
@@ -123,6 +123,10 @@ main{
 	display: flex;
 }
 
+#utilisateurs:target{
+	display: flex;
+}
+
 /*---------------------Tableaux-------------------*/
 
 .admin-produits, .admin-commandes{
@@ -130,14 +134,15 @@ main{
 	justify-content: left;
 }
 
-#produits, #commandes{
+#produits, #commandes, #utilisateurs{
 	scroll-margin-top: 400px;
 }
 
 table{
 	margin-top: 30px;
 	margin: 0 10px;
-	border-spacing: 0 20px;
+	border-spacing: 0 10px;
+	width: 100%;
 }
 
 thead{
@@ -166,15 +171,15 @@ table li{
 /*------Classes couleurs-----------*/
 
 .vert{
-	background-color: green;
+	background-color: #9dc99d;
 }
 
 .rouge{
-	background-color: red;
+	background-color: #f47c7c;
 }
 
 .orange{
-	background-color: orange;
+	background-color: #f4c97f;
 }
 
 /*---------------Style header-------------------*/
@@ -183,8 +188,11 @@ header{
 	background-color: #1c1818;
 	border-bottom: 2px solid red;
 	box-shadow: 0px 4px 3px red;
+	justify-content: center;
 }
 
+
 header h1{
-	color: red;
+	color: #933b3b;
 }
+
