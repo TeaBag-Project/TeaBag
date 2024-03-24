@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/admin-commmandes.css">
+    <link rel="stylesheet" type="text/css" href="../style/admin-commandes.css">
+    <link rel="icon" href="../img/favicon.ico">
+	<title>TeaBag</title>
+</head>
+<body>
+    <!-----------------PANEL--------------------------->
+    <div class="panel" id="panel">
+        <a class="showpanel" href="#panel"></a>
+        <ul>
+            <a href="" class="closepanel"></a>
+            <li><img src="../img/profil.png"><a href="admin.html">Profil</a></li>
+            <li><img src="../img/commande.png"><a href="commandes.html">Commandes</a></li>
+        </ul>
+    </div>
+    <!------------------HEADER-------------------------->
+    <div class="bienvenue">
+        <marquee behavior="scroll">
+            <span>Livraison standard offerte en France à partir de 49€ d’achat</span>
+            <span><img src="../img/thé_défilant.gif" class="thé_def"></span>
+            <span>Commande expédiée le jour même si passée avant 13h</span>
+        </marquee>
+    </div>
+    <header>
+        <a href="../index.html"><img src="../img/headericon.gif" class="logo"></a>
+        <h1>Tea Bag</h1>
+        <img src="../img/user.png">
+    </header>
+    <!-----------------NAVBAR--------------------------->
+    <nav>
+        <a href="vente.html">Vente</a>
+        <a href="histoire.html">Histoire</a>
+        <a href="apropos.html">A propos</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+	<main>
+        <div class="box">
+            <h1 class="grostitre">Admin Utilisateurs</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date d'inscription</th>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th>Nom d'utilisateur</th>
+                        <th>Pays</th>
+                        <th>Nombre de commandes</th>
+                        <th>Moyen de payement</th>
+                        <th>Montant dernière commande</th>
+                        <th>Statut de la commande</th>
+                        <th>Activité</th> <!-- Nouvelle section -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr name="l3" class="impair">
+                        <td>08/02/2024</td>
+                        <td>Garcia</td>
+                        <td>Maria</td>
+                        <td>mgarcia</td>
+                        <td>Espagne</td>
+                        <td>2</td>
+                        <td>Apple Pay</td>
+                        <td>45,75€</td>
+                        <td>En attente</td>
+                        <td>Connecté</td>
+                    </tr>   
+                    <tr name="l2" class="pair">
+                        <td>19/03/2024</td>
+                        <td>Doe</td>
+                        <td>Jane</td>
+                        <td>jane_doe</td>
+                        <td>Canada</td>
+                        <td>1</td>
+                        <td>PayPal</td>
+                        <td>31,49€</td>
+                        <td>Livré</td>
+                        <td>Déconnecté (depuis 3 jours)</td>
+                    </tr>
+                    <tr name="l1" class="impair">
+                        <td>21/03/2024</td>
+                        <td>Smith</td>
+                        <td>John</td>
+                        <td>jsmith123</td>
+                        <td>Etats-Unis</td>
+                        <td>3</td>
+                        <td>Carte de crédit</td>
+                        <td>50,25€</td>
+                        <td>Expédié</td>
+                        <td>Connecté</td>
+                    </tr>
+                    <tr name="l4" class="pair">
+                        <td>07/02/2024</td>
+                        <td>Kim</td>
+                        <td>Sung</td>
+                        <td>sungkim88</td>
+                        <td>Corée du Sud</td>
+                        <td>1</td>
+                        <td>Carte de débit</td>
+                        <td>19,75€</td>
+                        <td>Annulé</td>
+                        <td>Déconnecté (depuis 1 semaine)</td>
+                    </tr>
+                    <tr name="l5" class="impair">
+                        <td>16/03/2024</td>
+                        <td>Chen</td>
+                        <td>Ling</td>
+                        <td>lingchen</td>
+                        <td>Chine</td>
+                        <td>4</td>
+                        <td>Alipay</td>
+                        <td>59,30€</td>
+                        <td>Expédié</td>
+                        <td>Connecté</td>
+                    </tr>
+                    <tr name="l6" class="pair">
+                        <td>12/03/2024</td>
+                        <td>Yamamoto</td>
+                        <td>Yuki</td>
+                        <td>yamamotogirl</td>
+                        <td>Japon</td>
+                        <td>2</td>
+                        <td>Line Pay</td>
+                        <td>49,60€</td>
+                        <td>Livré</td>
+                        <td>Déconnecté (depuis 2 jours)</td>
+                    </tr>
+                    <tr name="l8" class="pair">
+                        <td>22/03/2024</td>
+                        <td>Wang</td>
+                        <td>Liu</td>
+                        <td>wliu22</td>
+                        <td>Chine</td>
+                        <td>3</td>
+                        <td>WeChat Pay</td>
+                        <td>69,85€</td>
+                        <td>Expédié</td>
+                        <td>Déconnecté (depuis 5 jours)</td>
+                    </tr>
+                    <tr name="l7" class="impair">
+                        <td>25/03/2024</td>
+                        <td>López</td>
+                        <td>María</td>
+                        <td>marialopez</td>
+                        <td>Espagne</td>
+                        <td>1</td>
+                        <td>Carte de crédit</td>
+                        <td>39,15€</td>
+                        <td>En attente</td>
+                        <td>Connecté</td>
+                    </tr>
+                    <tr name="l9" class="impair">
+                        <td>30/03/2024</td>
+                        <td>Dubois</td>
+                        <td>Pierre</td>
+                        <td>pierredubois</td>
+                        <td>France</td>
+                        <td>2</td>
+                        <td>Carte bancaire</td>
+                        <td>49,40€</td>
+                        <td>En attente</td>
+                        <td>Connecté</td>
+                    </tr>
+                    <tr name="l10" class="pair">
+                        <td>28/03/2024</td>
+                        <td>Müller</td>
+                        <td>Lena</td>
+                        <td>lenamuller</td>
+                        <td>Allemagne</td>
+                        <td>1</td>
+                        <td>PayPal</td>
+                        <td>29,90€</td>
+                        <td>Livré</td>
+                        <td>Déconnecté (depuis 1 jour)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <!------------------FOOTER-------------------------->
+    <footer>
+        <div class="container">
+            <div class="navigation">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="apropos.html">A propos</a></li>
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="vente.html">Vente</a></li>
+                </ul>
+            </div>
+            <div class="bye">
+                <h2>Merci de votre visite!</h2>
+                <button><a href="contact.html">Contactez nous!</a></button>
+            </div>
+            <div class="coordonnées">
+                <h3>Coordonnées</h3>
+                <ul>
+                    <li>8 rue d'Hozier</li>
+                    <li>13002</li>
+                    <li>Marseille</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
