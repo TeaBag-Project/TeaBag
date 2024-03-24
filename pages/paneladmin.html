@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/ed26c97a27.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/paneladmin.css">
+	<title>AdminPanel</title>
+</head>
+<body>
+	<!------------------HEADER-------------------------->
+	<header>
+		<a href="../index.html"><img src="../img/headericon.gif" class="logo"></a>
+		<h1>Admin Panel</h1>
+		<img src="../img/user.png">
+	</header>
+	<!------------------MAIN-------------------------->
+	<main>
+		<div class="box">
+			<section class="terminal_header">
+				<div class="onglets">
+					<button class="produits_button"><img src="../img/terminal.png"><a href="#produits">Produits</a></button>
+					<button class="commandes_button"><img src="../img/terminal.png"><a href="#commandes">Commandes</a></button>
+				</div>
+				<div class="boutons">
+					<button><a href=""><img src="../img/réduire.png"></a></button>
+					<button><img src="../img/agrandir.png"></button>
+					<button class="close"><a href="../pages/profil.html"><i class="fa-solid fa-xmark"></i></a></button>
+				</div>
+			</section>
+			<section class="terminal_main">
+				<div class="contexte">
+					<p>Terminal version 10.0.22631.3296</p>
+					<p>Type <span style="color: #F1DB63;">$help</span> to view all commands</p>
+					<p style="color: #4FF76F">@admin\adminpanel: </p>
+				</div>
+				<div class="admin-produits" id="produits">
+					<table>
+						<thead>
+			                <tr>
+			                	<th>Article</th>
+			                    <th>Date d'ajout</th>
+			                    <th>Stock disponible</th>
+			                    <th>Prix Unitaire</th>
+			                    <th>Ventes</th>
+			                    <th>Statut</th>
+			                    <th>Prochaine disponibilité</th>
+			                </tr>           
+			            </thead>
+			            <tbody>
+			                <tr name="l1" class="vert">
+			                    <td>Thé Cérémonie</td>
+			                    <td>01/01/24</td>
+			                    <td>13</td>
+			                    <td>39,90€</td>
+			                    <td>37</td>
+			                    <td>Disponible</td>
+			                    <td>30/03/2024</td>
+			                </tr>
+			                <tr name="l2" class="rouge">
+			                    <td>Thé Fraise</td>
+			                    <td>05/01/24</td>
+			                    <td>0</td>
+			                    <td>34,90€</td>
+			                    <td>50</td>
+			                    <td>Epuisé</td>
+			                    <td>25/03/2024</td>
+			                </tr>
+			                <tr name="l3" class="orange">
+			                    <td>Thé Vanille</td>
+			                    <td>09/01/24</td>
+			                    <td>2</td>
+			                    <td>39,90€</td>
+			                    <td>48</td>
+			                    <td>Presque épuisé</td>
+			                    <td>25/03/2024</td>
+			                </tr>
+			                <tr name="l4" class="vert">
+			                    <td>Mochis</td>
+			                    <td>13/01/24</td>
+			                    <td>15</td>
+			                    <td>28,00€</td>
+			                    <td>85</td>
+			                    <td>Disponible</td>
+			                    <td>30/03/2024</td>
+			                </tr>
+			                <tr name="l5" class="rouge">
+			                    <td>Cookies</td>
+			                    <td>17/01/24</td>
+			                    <td>0</td>
+			                    <td>16,00€</td>
+			                    <td>100</td>
+			                    <td>Epuisé</td>
+			                    <td>25/03/2024</td>
+			                </tr>
+			                <tr name="l6" class="vert">
+			                    <td>Truffes</td>
+			                    <td>21/01/24</td>
+			                    <td>27</td>
+			                    <td>24,00€</td>
+			                    <td>73</td>
+			                    <td>Disponible</td>
+			                    <td>30/03/2024</td>
+			                </tr>
+			            </tbody>
+					</table>
+				</div>
+				<div class="admin-commandes" id="commandes">
+					<table>
+						<thead>
+			                <tr>
+			                    <th>Date</th>
+			                    <th>Nom</th>
+			                    <th>Prénom</th>
+			                    <th>Nom d'utilisateur</th>
+			                    <th>N°commande</th>
+			                    <th>Articles</th>
+			                    <th>Nb articles</th>
+			                    <th>Prix Unitaire</th>
+			                    <th>Total</th>
+			                    <th>Statut</th>
+			                </tr>           
+			            </thead>
+			            <tbody>
+			                <tr name="l1" class="orange">
+			                    <td>21/03/24</td>
+			                    <td>Tyll</td>
+			                    <td>Burton</td>
+			                    <td>burton-tyll</td>
+			                    <td>428-5438388-4159846</td>
+			                    <td>thé cérémonie</td>
+			                    <td>1</td>
+			                    <td>39,90€</td>
+			                    <td>44,90€</td>
+			                    <td>Expédié</td>
+			                </tr>
+			                <tr name="l2" class="vert">
+			                    <td>19/03/24</td>
+			                    <td>Tyll</td>
+			                    <td>Burton</td>
+			                    <td>burton-tyll</td>
+			                    <td>427-5439386-4159453</td>
+			                    <td>
+			                        <ul>
+			                            <li>thé fraise</li>
+			                            <li>mochis</li>
+			                            <li>cookies</li>
+			                        </ul>
+			                    </td>
+			                    <td>
+			                        <ul>
+			                            <li>1</li>
+			                            <li>1</li>
+			                            <li>1</li>
+			                        </ul>
+			                    </td>
+			                    <td>
+			                        <ul>
+			                            <li>34,90€</li>
+			                            <li>28,00€</li>
+			                            <li>24,00€</li>
+			                        </ul>
+			                    </td>
+			                    <td>91,90€</td>
+			                    <td>Livré</td>
+			                </tr>
+			                <tr name="l3" class="rouge">
+			                    <td>08/02/24</td>
+			                    <td>Kribeche</td>
+			                    <td>Younes</td>
+			                    <td>younes-kribeche</td>
+			                    <td>427-5438386-4159341</td>
+			                    <td>
+			                        <ul>
+			                            <li>thé vanille</li>
+			                            <li>thé cérémonie</li>
+			                            <li>cookies</li>
+			                            <li>truffes</li>
+			                            <li>mochis</li>
+			                        </ul>
+			                    </td>
+			                    <td>
+			                        <ul>
+			                            <li>1</li>
+			                            <li>1</li>
+			                            <li>2</li>
+			                            <li>3</li>
+			                            <li>1</li>
+			                        </ul>
+			                    </td>
+			                    <td>
+			                        <ul>
+			                            <li>34,90€</li>
+			                            <li>39,90€</li>
+			                            <li>16,00€</li>
+			                            <li>24,00€</li>
+			                            <li>28,00€</li>
+			                        </ul>
+			                    </td>
+			                    <td>211,80€</td>
+			                    <td>Annulé</td>
+			                </tr>
+			                <tr name="l4" class="vert">
+			                    <td>07/02/24</td>
+			                    <td>Tyll</td>
+			                    <td>Burton</td>
+			                    <td>burton-tyll</td>
+			                    <td>427-5438386-4159321</td>
+			                    <td>
+			                        <ul>
+			                            <li>thé vanille</li>
+			                            <li>cookies</li>
+			                        </ul>
+			                    </td>
+			                    <td>
+			                        <ul>
+			                            <li>1</li>
+			                            <li>1</li>
+			                        </ul>
+			                    </td>
+			                    <td>
+			                        <ul>
+			                            <li>34,90€</li>
+			                            <li>16,00€</li>
+			                        </ul>
+			                    </td>
+			                    <td>55,90€</td>
+			                    <td>Livré</td>
+			                </tr>
+			            </tbody>
+					</table>	
+				</div>
+			</section>
+		</div>
+	</main>
+</body>
+</html>

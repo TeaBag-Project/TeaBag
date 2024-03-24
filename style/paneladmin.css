@@ -1,0 +1,190 @@
+html{
+	min-height: 100vh;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.terminal_header{
+	background-color: #333333;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+main{
+	background-color: #282A36;
+	height: 90%;
+}
+
+/*-------------CONTEXTE--------------------*/
+
+.contexte p{
+	margin: 5px;
+}
+
+.contexte{
+	margin-bottom: 100px;
+}
+
+
+/*-----------------------------Boutons------------------------------------*/
+
+.boutons{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.boutons img{
+	width: 20px;
+	height: 20px;
+}
+
+.boutons button{
+	background-color: #333333;
+	border: none;
+	margin: 0 5px;
+	height: 100%;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.boutons button:hover:not(.close){
+	background-color: grey;
+}
+
+.close i{
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+
+.close:hover{
+	background-color: red;
+	color: white;
+}
+
+/*---------------------------------Onglets-------------------------------*/
+
+.onglets button{
+	display: flex;
+	align-items: center;
+	height: 100%;
+	background-color: #333333;
+	width: 120px;
+	border: none;
+}
+
+.onglets button:hover{
+	background-color: black;
+	border-radius: 5px;
+}
+
+.onglets{
+	display: flex;
+	height: 70%;
+	align-items: center;
+	justify-content: center;
+}
+
+.onglets a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+.onglets img{
+	width: 16px;
+	height: 16px;
+}
+
+/*Masquer*/
+
+#produits, #commandes{
+	display: none;
+}
+
+/*Target*/
+
+#produits:target{
+	display: flex;
+}
+
+#commandes:target{
+	display: flex;
+}
+
+/*---------------------Tableaux-------------------*/
+
+.admin-produits, .admin-commandes{
+	display: flex;
+	justify-content: left;
+}
+
+#produits, #commandes{
+	scroll-margin-top: 400px;
+}
+
+table{
+	margin-top: 30px;
+	margin: 0 10px;
+	border-spacing: 0 20px;
+}
+
+thead{
+	text-align: left;
+	background-color: #333333;
+}
+
+th, td{
+	border: 2px solid black;
+	padding: 20px;
+}
+
+td{
+	padding: 5px;
+}
+
+table ul{
+	padding: 0;
+	margin: 0;
+}
+
+table li{
+	list-style-type: none;
+}
+
+/*------Classes couleurs-----------*/
+
+.vert{
+	background-color: green;
+}
+
+.rouge{
+	background-color: red;
+}
+
+.orange{
+	background-color: orange;
+}
+
+/*---------------Style header-------------------*/
+
+header{
+	background-color: #1c1818;
+	border-bottom: 2px solid red;
+	box-shadow: 0px 4px 3px red;
+}
+
+header h1{
+	color: red;
+}
