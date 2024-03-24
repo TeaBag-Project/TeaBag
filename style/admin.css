@@ -10,9 +10,9 @@ p{
 
 main h1{
     font-size: 30px;
-    background-color: #C4E1C5;
+    background-color: #36363629;
     border-radius: 10px;
-    width: 40%;
+    width: 25%;
 }
 
 section{
@@ -23,12 +23,29 @@ section{
     height: auto;
 }
 
-section img{
+
+.titre1{
+    color:#FCDEDE
+}
+
+.titre2{
+    color:#C4E1C5
+}
+
+.img1{
+    width: 20%;
+    border: solid 6px #FCDEDE;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+    border-radius: 50px;
+    background-color: #FCDEDE;
+}
+
+.img2{
     width: 20%;
     border: solid 6px #C4E1C5;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
     border-radius: 50px;
-    background-color: #FCDEDE;
+    background-color: #C4E1C5;
 }
 
 section img:hover{
@@ -59,14 +76,23 @@ a{
 
 
 /*-------------Responsive----------------*/
+@media screen and (max-width: 769px){
+    main h1{
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 426px){
     main h1{
-        width: 70%;
+        width: 40%;
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 376px){
+    main h1{
+        width: 50%;
+    }
     main h2{
         font-size: 15px;
     }
