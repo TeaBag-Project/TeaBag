@@ -27,8 +27,9 @@ hr {
   margin-top: 60px;
 }
 .imageb {
-  display: flex;
+  display: grid;
   justify-content: center;
+  grid-template-columns: 256px 256px;
   gap: 20px;
 }
 .imageb .imagine {
@@ -78,4 +79,9 @@ video {
 }
 .second_arc h2{
       margin-bottom: 40px;
+}
+
+.yamaha{
+  height: 350px;
+  width: 100%;
 }
