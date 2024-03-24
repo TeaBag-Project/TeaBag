@@ -1,0 +1,135 @@
+.SectionProfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+    padding-top: 0;
+
+}
+
+.Titre{
+    font-size: 300%;
+    color: #C4E1C5;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: underline 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ImgProfil{
+    width: 25%;
+}
+
+.DivProfil{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 110%;
+    text-shadow: 1px 1px 2px black;
+    background-color: #C4E1C5;    
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #FCDEDE;
+    margin-right: 1%;
+}
+
+.DivProfil img{
+    width: 60%;
+    background-size: 200%;
+}
+.DivProfil a{
+    color: white;
+    display: contents;
+}
+
+.SousDivProfil{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+.DivIcone:hover{
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.447) 0px 3px 8px;
+}
+
+.vertical_line {
+	border: 1px solid #FFE6E6;
+    box-shadow: 1px 1px 5px black;
+	margin: 0 10px;
+    padding-top: 12%;
+    margin-top: 10%;
+}
+
+hr{
+    border: 1px solid #FFE6E6;
+    background-color: black;
+    width: 150px;
+    box-shadow: 1px 1px 5px black;
+}
+
+@media screen and (min-width: 769px){
+    .DivProfil{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 769px){
+    .DivProfil{
+        width: 75%;
+    }
+}
+
+
+@media(min-width: 426px){
+    hr{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 426px){
+    .DivProfil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+    .vertical_line{
+        display: none;
+    }
+
+    
+    .DivIcone{
+        width: 40%;
+        margin-top: 0;
+    }
+    .DivIcone h2{
+        font-size: 120%;
+    }
+}
+
+
+@media screen and (max-width: 376px){
+    .DivProfil{
+        width: 60%;
+        font-size: 80%;
+    }
+    .Titre{
+        font-size: 100%;
+    }
+    .DivIcone h2{
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 321px){
+    .DivIcone h2{
+        font-size: 80%;
+    }
+}
+
