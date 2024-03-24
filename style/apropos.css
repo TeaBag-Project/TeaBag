@@ -7,7 +7,7 @@ body{
     grid-template-columns: 350px 350px;
     justify-content: center;
     margin-top: 30px;
-    gap: 50px;
+    gap: 20px;
 }
 .matcha{
     margin-top: 50px;
@@ -27,6 +27,11 @@ body{
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.phrasedekip li{
+    margin-bottom: 15px;
+}
+
 .grotitre{
 	text-shadow: 3px 3px #f9c9c9;
 	text-transform: uppercase;
@@ -37,4 +42,34 @@ body{
 .japon{
     margin-top: 70px;
     background-color: #fde1c6;
+}
+
+.box{
+    padding-bottom: 0;
+}
+
+/*--------Media-Queries--------------*/
+
+@media (max-width: 426px){
+
+  .uneimage img{
+    width: 150px;
+    height: 150px;
+  }
+
+  .uneimage{
+    grid-template-columns: 150px 150px;
+  }
+}
+
+@media (max-width: 321px){
+
+  .uneimage img{
+    width: 120px;
+    height: 120px;
+  }
+
+  .uneimage{
+    grid-template-columns: 120px 120px;
+  }
 }

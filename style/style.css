@@ -17,6 +17,8 @@ main{
 	min-height: 100vh;
 	font-family: "Madimi One", sans-serif;
 	font-weight: 100;
+	color: white;
+	text-shadow: 1px 1px 2px black;
 }
 
 button{
@@ -94,7 +96,7 @@ nav a{
 	color: #FFEBD8;
 	font-size: 20px;
 	font-weight: bold;
-	text-shadow: 1px 1px #efd1b6;
+	text-shadow: 1px 1px 2px black;
 }
 
 .panel{
@@ -130,7 +132,7 @@ nav a{
 	width: 100%;
 	padding: 10px;
 	text-transform: uppercase;
-	font-family: "Roboto Condensed", sans-serif;
+	font-family: "Madimi One", sans-serif;
 }
 
 #panel:target ul{

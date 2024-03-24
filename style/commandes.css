@@ -57,6 +57,7 @@
 	height: 130px;
 	border: 1px solid pink;
 	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .boutons{
@@ -69,6 +70,7 @@
 	border-radius: 5px;
 	padding: 10px;
 	margin: 5px 0;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /*-------------------------Style général------------------------------*/

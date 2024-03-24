@@ -7,6 +7,8 @@
 	background-color: #FFE6E6;
 	flex-wrap: wrap-reverse;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	color: white;
+	text-shadow: 1px 1px 2px black;
 }
 
 .produit img:not(.prix){
@@ -29,6 +31,7 @@
 	background-color: #C4E1C5;
 	border: none;
 	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .description{

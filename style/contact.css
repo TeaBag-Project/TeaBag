@@ -21,6 +21,12 @@ form{
 	flex-direction: column;
 	padding: 15px;
 	width: 50%;
+	align-items: center;
+}
+
+.msg_contact img{
+	width: 100px;
+	height: 100px;
 }
 
 .box{
