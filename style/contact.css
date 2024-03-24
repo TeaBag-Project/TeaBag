@@ -29,6 +29,10 @@ form{
 	height: 100px;
 }
 
+.fleche{
+	display: none;
+}
+
 .box{
 	align-items: center;
 }
@@ -87,6 +91,14 @@ button{
 	.contact{
 		flex-direction: column;
 		margin-bottom: 30px;
+	}
+
+	.fleche{
+		display: block;
+	}
+
+	.doigt{
+		display: none;
 	}
 
 	form{
