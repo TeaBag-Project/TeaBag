@@ -196,3 +196,41 @@ header h1{
 	color: #933b3b;
 }
 
+
+/*MediaQueries*/
+
+@media (max-width: 769px){
+	.admin-produits, .admin-commandes, .admin-utilisateurs{
+		overflow: scroll;
+	}
+}
+
+@media (max-width: 426px){
+	.onglets button{
+		width: 80px;
+		font-size: 8px;
+	}
+
+	.boutons{
+		width: 100%;
+	}
+
+	.boutons button{
+		width: 30px;
+	}
+}
+
+@media (max-width: 321px){
+	.onglets button{
+		width: 65px;
+	}
+
+	.boutons button{
+		width: 20px;
+	}
+
+	.onglets img{
+		display: none;
+	}
+}
+
