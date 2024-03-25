@@ -1,5 +1,8 @@
 
 
+.box{
+    align-items: center;
+}
 .SectionProfil{
     display: flex;
     flex-direction: column;
@@ -7,6 +10,7 @@
     text-align: center;
     margin-top: 5vh;
     padding-top: 0;
+    width: 40%;
 
 }
 
@@ -39,6 +43,7 @@
 }
 
 .DivInputFirst{
+    padding-top: 5vh;
     display: flex;
     flex-direction: column;
     margin-bottom: 10%;
@@ -88,19 +93,16 @@ input{
 
 @media screen and (max-width: 769px){
     .DivProfil{
-        width: 60%;
+        width: 150%;
     }
 }
 
 
 @media screen and (max-width: 376px){
     .DivProfil{
-        width: 60%;
         font-size: 80%;
     }
     .Titre{
         font-size: 100%;
     }
 }
-
-

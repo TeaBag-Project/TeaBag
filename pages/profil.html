@@ -5,17 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../style/profil.css">
         <link rel="stylesheet" href="../style/style.css">
-        <link rel="icon" href="../img/favicon.ico">
         <title>Profil</title>
     </head>
     <body>
-            <!-----------------PANEL--------------------------->
+        <!-----------------PANEL--------------------------->
         <div class="panel" id="panel">
             <a class="showpanel" href="#panel"></a>
             <ul>
                 <a href="" class="closepanel"></a>
-                <li><img src="../img/profil.png"><a href="admin.html">Profil</a></li>
-                <li><img src="../img/commande.png"><a href="commandes.html">Commandes</a></li>
+                <li><img src="../img/profil_user.png" class="img-profil"><a href="profil.html">Profil</a></li>
+                <li><img src="../img/rouage_admin.png" class="img-profil"><a href="profil-admin.html">Administrateur</a></li>
             </ul>
         </div>
         <!------------------HEADER-------------------------->
@@ -34,73 +33,59 @@
         <!-----------------NAVBAR--------------------------->
         <nav>
             🍵
-            <a href="vente.html">Vente</a>
-            <a href="histoire.html">Histoire</a>
-            <a href="apropos.html">A propos</a>
-            <a href="contact.html">Contact</a>
+            <a href="commandes.html">Commandes</a>
+            <a href="profil.html">Profil</a>
             🍵
         </nav>
 
         <main>
             <div class="box">
-                <section class="SectionProfil">
-                    <h1 class="Titre">Mon Profil</h1>
-                    <img src="../img/profil_user.png" alt="icone utilisateur" class="ImgProfil">
-                        <div class="DivProfil">
-                                <div class="DivInputFirst">
-                                    <label for="Nom">Nom</label>
-                                    <input type="Nom" value="Sparrow">
-                                </div>
+                    <section class="SectionProfil">
+                        <h1 class="Titre">Mon Profil</h1>
+                        <img src="../img/profil_user.png" alt="icone utilisateur" class="ImgProfil">
+                            <div class="DivProfil">
+                                    <div class="DivInputFirst">
+                                        <label for="Nom">Nom</label>
+                                        <input type="Nom" value="Sparrow">
+                                    </div>
 
-                                <div class="DivInput">
-                                    <label for="Prénom">Prénom</label>
-                                    <input type="Prénom" value="Jack">
-                                </div>
+                                    <div class="DivInput">
+                                        <label for="Prénom">Prénom</label>
+                                        <input type="Prénom" value="Jack">
+                                    </div>
 
-                                <div class="DivInput">
-                                    <label for="Numéro de téléphone">Numéro de téléphone</label>
-                                    <input type="Numéro de téléphone" value="06 66 12 23 34">
-                                </div>
+                                    <div class="DivInput">
+                                        <label for="Numéro de téléphone">Numéro de téléphone</label>
+                                        <input type="Numéro de téléphone" value="06 66 12 23 34">
+                                    </div>
 
-                                <div class="DivInput">
-                                    <label for="Adresse">Adresse</label>
-                                    <input type="Adresse" value="7 Chemin de la Castellane 13015 Marseille">
-                                </div>
+                                    <div class="DivInput">
+                                        <label for="Adresse">Adresse</label>
+                                        <input type="Adresse" value="7 Chemin de la Castellane 13015 Marseille">
+                                    </div>
 
-                                <div class="DivInput">
-                                    <label for="Informations de payement">Informations de payement</label>
-                                    <input type="Informations de payement" value="MasterCard Jack Sparrow - 1358 45** **** ****">
-                                </div>
-                            <img src="../img/icone_entrée.png" alt="icone entrée" class="ImgEntrée">
-                        </div>
-                </section>
+                                    <div class="DivInput">
+                                        <label for="Informations de payement">Informations de paiement</label>
+                                        <input type="Informations de payement" value="MasterCard Jack Sparrow - 1358 45** **** ****">
+                                    </div>
+                                <img src="../img/icone_entrée.png" alt="icone entrée" class="ImgEntrée">
+                            </div>
+                    </section>
             </div>
         </main>
-         <!------------------FOOTER-------------------------->
-    <footer>
-        <div class="container">
+            <!------------------FOOTER-------------------------->
+        <footer>
             <div class="navigation">
-                <h3>Navigation</h3>
-                <ul>
-                    <li><a href="../index.html">Accueil</a></li>
-                    <li><a href="apropos.html">A propos</a></li>
-                    <li><a href="histoire.html">Histoire</a></li>
-                    <li><a href="vente.html">Vente</a></li>
-                </ul>
+                <a href="../index.html">Accueil</a>
+                <a href="apropos.html">A propos</a>
+                <a href="contact.html">Contact</a>
             </div>
             <div class="bye">
-                <h2>Merci de votre visite!</h2>
-                <button><a href="contact.html">Contactez nous!</a></button>
+                <p>Merci de votre visite!</p>
             </div>
             <div class="coordonnées">
-                <h3>Coordonnées</h3>
-                <ul>
-                    <li>8 rue d'Hozier</li>
-                    <li>13002</li>
-                    <li>Marseille</li>
-                </ul>
+                <p>8 rue d'Hozier<br>13002<br>Marseille</p>
             </div>
-        </div>
-    </footer>
+        </footer>
     </body>
 </html>

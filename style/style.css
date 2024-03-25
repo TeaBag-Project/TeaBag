@@ -99,6 +99,11 @@ nav a{
 	text-shadow: 1px 1px 2px black;
 }
 
+nav a:hover{
+	box-shadow: white 0px 0px 5px 0px, white 0px 0px 1px 0px;
+	border-radius: 10px;
+}
+
 .panel{
 	position: absolute;
 	right: 0;
@@ -161,6 +166,13 @@ nav a{
 	top: 5vh;
 	right: 0;
 	z-index: 20;
+}
+
+.img-profil{
+	width: 20%;
+	background-color: #FCDEDE;
+	border-radius: 10px;
+	margin-bottom: 2px;
 }
 
 
